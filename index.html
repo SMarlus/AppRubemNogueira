@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Colégio Rubem Nogueira</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<body>
+    <header>
+        <img src="img/LogoCERN2.png" alt="Logo da Escola" class="logo">
+        <h1>Colégio Estadual Rubem Nogueira</h1>
+    </header>
+
+    <nav>
+        <button onclick="mostrarPagina('inicio')">Início</button>
+        <button onclick="mostrarPagina('calendario')">Calendário</button>
+        <button onclick="mostrarPagina('contato')">Contato</button>
+    </nav>
+
+    <main>
+        <section id="inicio" class="pagina">
+            <h2>Bem-vindo!</h2>
+            <p>App oficial do Colégio Rubem Nogueira.</p>
+        </section>
+
+        <section id="calendario" class="pagina" style="display:none;">
+            <h2>Calendário 2025</h2>
+            <div class="evento">
+                <h3>10/02 - Início do Ano Letivo</h3>
+                <p>Retorno das aulas para todos os alunos.</p>
+            </div>
+        </section>
+
+        <section id="contato" class="pagina" style="display:none;">
+            <h2>Contato</h2>
+            <p><strong>Endereço:</strong> Rua Exemplo, 123 - Serrinha/BA</p>
+            <p><strong>Telefone:</strong> (71) 1234-5678</p>
+            <p><strong>E-mail:</strong> contato@rubemnogueira.edu.br</p>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
